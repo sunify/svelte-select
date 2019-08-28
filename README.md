@@ -1,6 +1,6 @@
 # svelte-select
 
-Simple select that allows you to customize button appearance
+Simple component that allows you to customize select button appearance
 
 ```svelte
 <script>
