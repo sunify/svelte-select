@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
+    "build-demo": "parcel build demo/index.html",
+    "start-demo": "parcel demo/index.html --open",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
