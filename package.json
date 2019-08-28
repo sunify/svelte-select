@@ -6,7 +6,7 @@
   "scripts": {
     "test": "exit 0",
     "build": "rollup -c",
-    "build-demo": "parcel build demo/index.html",
+    "build-demo": "parcel build --public-url '.' demo/index.html",
     "start-demo": "parcel demo/index.html --open",
     "prepublishOnly": "npm run build"
   },
