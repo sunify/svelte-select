@@ -1,0 +1,32 @@
+{
+  "name": "@sunify/svelte-select",
+  "svelte": "src/index.svelte",
+  "module": "index.mjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "parcel-plugin-svelte": "^4.0.2",
+    "rollup": "^1.11.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ],
+  "browserslist": [
+    "last 5 chrome versions"
+  ],
+  "version": "1.0.0",
+  "author": "Alex Lunyov <isuntc@gmail.com>",
+  "license": "MIT"
+}
