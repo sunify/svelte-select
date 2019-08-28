@@ -8,4 +8,4 @@ var t=arguments[3];function e(){}Object.defineProperty(exports,"__esModule",{val
 },{"svelte/internal":"YkLP","../src/index.svelte":"EE2L"}],"lgAh":[function(require,module,exports) {
 "use strict";var e=t(require("./demo.svelte"));function t(e){return e&&e.__esModule?e:{default:e}}new e.default({target:document.body});
 },{"./demo.svelte":"Lzn1"}]},{},["lgAh"], null)
-//# sourceMappingURL=/demo.8bcf560f.js.map
+//# sourceMappingURL=demo.8bcf560f.js.map
